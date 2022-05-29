@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Bite Me Good</title>
+</head>
+<body>
+    <header class="headings">
+        <a href="#" class="logo"><i class="head-logo fas fa-pizza-slice"> Pizza</i></a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#order">order</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here.." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>Your Special Pizza's</span>
+                        <h3>margherita</h3>
+                        <p>A hugely popular margherita, with a deliciously tangy single cheese topping</p>
+                        <a href="#" class="btn">Order Now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="Margherit.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>Your Special Pizza's</span>
+                        <h3>Mexican Green Wave</h3>
+                        <p>A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes & jalapeno with sprinkling of exotic Mexican herbs.</p>
+                        <a href="#" class="btn">Order Now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="Mexican_Green_Wave.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>Your Special Pizza's</span>
+                        <h3>Deluxe Veggie</h3>
+                        <p>For a vegetarian looking for a BIG treat that goes easy on the spices, this one's got it all.. The onions, the capsicum, those delectable mushrooms - with paneer and golden corn to top it all.</p>
+                        <a href="#" class="btn">Order Now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="Deluxe_Veggie.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide slider">
+                    <div class="content">
+                        <span>Your Special Pizza's</span>
+                        <h3>Veg Extravaganza</h3>
+                        <p>A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, crisp capsicum, succulent mushrooms, juicyfresh tomatoes and jalapeno - with extra cheese to go all around.</p>
+                        <a href="#" class="btn">Order Now!</a>
+                    </div>
+                    <div class="image">
+                        <img src="Veg_Extravaganz.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+        <h3 class="subheading">Our Pizza's</h3>
+        <h3 class="heading">Popular Pizza's</h3>
+
+        <div class="boxcontainer">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Digital_Veggie_Paradise_olo_266x265.jpg" alt="">
+                <h3>Veggie Paradise</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 249</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img class="special" src="IndianTandooriPaneer.jpg" alt="">
+                <h3>Indian Tandoor</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 229</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Peppy_Paneer.jpg" alt="">
+                <h3>Peppt Paneer</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 239</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Fresh_Veggie.jpg" alt="">
+                <h3>Fresh Vegie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 239</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Farmhouse.jpg" alt="">
+                <h3>Farm House</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 159</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Deluxe_Veggie.jpg" alt="">
+                <h3>Delux Veggie</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 239</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Mexican_Green_Wave.jpg" alt="">
+                <h3>Mexican Green Wave</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 459</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="Margherit.jpg" alt="">
+                <h3>Margherita</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half"></i>
+                    <span>Rs 309</span>
+                    <a href="#" class="btn">Add To Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <h3 class="subheading">About Us</h3>
+        <h1 class="heading">Why Vansh's Pizza?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="IndianChickenTikka.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>best Pizza in the World</h3>
+                <p>Vansh’s Pizza has it’s own unique taste. It uses a bread based dough that has a high gluten content for their crust, most of their competitors use a traditional dough that is lower in gluten. The gluten content of a dough is what makes it able to stretch out when being slapped out, and gives it a soft chewy bread like texture when baked.</p>
+                <p>Vansh’s uses a spiced sauce so you can tailor how spicy or hot the pizza is by asking for extra or light sauce</p>
+                <div class="iconscontainer">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery! No Extra Cost!!</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>Easy And Fast Payment</span>
+                    </div>
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>@4/7 Service!!</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="order" id="order">
+        <h3 class="subheading">Order Now!!</h3>
+        <h1 class="heading">Easy and Simple</h1>
+        <form action="">
+            <div class="inputbox">
+                <div class="input">
+                    <label for="first-name">First Name </label>
+                    <input type="text" placeholder="First Name" id="first-name">
+                </div>
+                <div class="input">
+                    <label for="last-name">Last Name </label>
+                    <input type="text" placeholder="Last Name" id="last-name">
+                </div>
+                <div class="input">
+                    <label for="Number">Your Number </label>
+                    <input type="number" placeholder="Enter your Number" id="Number">
+                </div>
+                <div class="input">
+                    <label for="your-order">Your Order </label>
+                    <input type="text" placeholder="Enter your Order" id="your-order">
+                </div>
+                <div class="input">
+                    <label for="add">Additional Beverage </label>
+                    <input type="text" placeholder="Beverage" id="add">
+                </div>
+                <div class="input">
+                    <label for="count">How much </label>
+                    <input type="text" placeholder="Number of orders" id="count">
+                </div>
+                
+                <div class="input">
+                    <label for="pata">Your Address </label>
+                    <textarea name="" placeholder="Enter your Address" id="pata" cols="30" rows="10"></textarea>
+                </div>
+                <div class="input">
+                    <label for="msg">Any Message </label>
+                    <textarea name="" placeholder="Enter your Message" id="msg" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+    </section>
+
+
+
+    <section class="footer">
+        <div class="boxcontainer">
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">India</a>
+                <a href="#">Pakistan</a>
+                <a href="#">Thailand</a>
+                <a href="#">China</a>
+                <a href="#">USA</a>
+            </div>
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#dishes">Dishes</a>
+                <a href="#about">About</a>
+                <a href="#order">Order</a>
+            </div>
+            <div class="box">
+                <h3>Conatact Info</h3>
+                <a href="#">+91-7888**34****</a>
+                <a href="#">+91-4567**34****</a>
+                <a href="#">faridabad, India</a>
+            </div>
+            <div class="box">
+                <h3>Follow Vansh's pizza</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+            </div>
+        </div>
+        <div class="copyright">Copyright @2021 <span> Vansh </span></div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
